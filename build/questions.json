@@ -1,0 +1,226 @@
+[
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Variables",
+    "question": "Which C++ keyword makes a variable read-only after initialization?",
+    "options": [
+      "static",
+      "const",
+      "void",
+      "return"
+    ],
+    "answer": 1,
+    "explanation": "const prevents reassignment after initialization."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Types",
+    "question": "Which built-in type commonly stores whole numbers?",
+    "options": [
+      "double",
+      "float",
+      "int",
+      "bool"
+    ],
+    "answer": 2,
+    "explanation": "int is an integer type."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Loops",
+    "question": "Which statement repeats while its condition is true?",
+    "options": [
+      "if",
+      "while",
+      "switch",
+      "return"
+    ],
+    "answer": 1,
+    "explanation": "while repeatedly executes its body while its condition remains true."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Operators",
+    "question": "What is the value of 5 + 3 * 2?",
+    "options": [
+      "16",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Multiplication has higher precedence than addition: 5 + 6 = 11."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Comparison",
+    "question": "Which operator compares two values for equality?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "+="
+    ],
+    "answer": 1,
+    "explanation": "== compares equality; = performs assignment."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "References",
+    "question": "What does int& r = x; declare when x is an int variable?",
+    "options": [
+      "A pointer",
+      "A reference",
+      "A new class",
+      "An array"
+    ],
+    "answer": 1,
+    "explanation": "int& declares a reference bound to an existing int object."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Polymorphism",
+    "question": "Which keyword enables virtual dispatch for a member function?",
+    "options": [
+      "static",
+      "friend",
+      "virtual",
+      "inline"
+    ],
+    "answer": 2,
+    "explanation": "virtual enables runtime dispatch when the function is overridden."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Ownership",
+    "question": "Which smart pointer represents exclusive ownership?",
+    "options": [
+      "shared_ptr",
+      "weak_ptr",
+      "unique_ptr",
+      "raw_ptr"
+    ],
+    "answer": 2,
+    "explanation": "std::unique_ptr owns its managed object exclusively."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Types",
+    "question": "Which primitive Java type stores true or false?",
+    "options": [
+      "int",
+      "String",
+      "boolean",
+      "char"
+    ],
+    "answer": 2,
+    "explanation": "boolean represents true and false."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Output",
+    "question": "Which statement prints a line to standard output in Java?",
+    "options": [
+      "System.out.println(\"Hi\");",
+      "cout << \"Hi\";",
+      "print.line(\"Hi\");",
+      "Console.WriteLine(\"Hi\");"
+    ],
+    "answer": 0,
+    "explanation": "System.out.println prints text followed by a newline."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Variables",
+    "question": "Which keyword prevents reassignment of a Java variable?",
+    "options": [
+      "static",
+      "final",
+      "extends",
+      "void"
+    ],
+    "answer": 1,
+    "explanation": "final variables cannot be reassigned after initialization."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Inheritance",
+    "question": "Which keyword declares a Java class subclass?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "answer": 1,
+    "explanation": "extends declares that a class inherits from another class."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Comparison",
+    "question": "Which method compares String contents?",
+    "options": [
+      "==",
+      "equals()",
+      "compareRef()",
+      "isSame()"
+    ],
+    "answer": 1,
+    "explanation": "String.equals compares character content rather than reference identity."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Collections",
+    "question": "Which interface represents a collection without duplicate elements?",
+    "options": [
+      "List",
+      "Queue",
+      "Set",
+      "Deque"
+    ],
+    "answer": 2,
+    "explanation": "Set does not allow duplicate elements."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Exceptions",
+    "question": "Which construct always executes its finally block when control enters the try, barring abrupt JVM termination?",
+    "options": [
+      "try/finally",
+      "if/else",
+      "switch",
+      "for"
+    ],
+    "answer": 0,
+    "explanation": "finally normally runs when leaving the try statement, including during exception propagation."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Generics",
+    "question": "What does List<? extends Number> allow safely?",
+    "options": [
+      "Adding arbitrary Integer objects",
+      "Reading elements as Number",
+      "Adding arbitrary Double objects",
+      "Changing its generic bound"
+    ],
+    "answer": 1,
+    "explanation": "Elements can be read as Number; adding non-null values is generally not type-safe."
+  }
+]

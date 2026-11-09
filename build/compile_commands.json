@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/MUNAH/OneDrive/Desktop/project C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -isystem C:/msys64/ucrt64/include/qt6/QtWidgets -isystem C:/msys64/ucrt64/include/qt6 -isystem C:/msys64/ucrt64/include/qt6/QtCore -isystem C:/msys64/ucrt64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/ucrt64/include/qt6/QtGui -std=gnu++17 -o CMakeFiles\\CodeQuest.dir\\main.cpp.obj -c \"C:\\Users\\MUNAH\\OneDrive\\Desktop\\project C++\\main.cpp\"",
+  "file": "C:/Users/MUNAH/OneDrive/Desktop/project C++/main.cpp",
+  "output": "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/CodeQuest.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/MUNAH/OneDrive/Desktop/project C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -isystem C:/msys64/ucrt64/include/qt6/QtWidgets -isystem C:/msys64/ucrt64/include/qt6 -isystem C:/msys64/ucrt64/include/qt6/QtCore -isystem C:/msys64/ucrt64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/ucrt64/include/qt6/QtGui -std=gnu++17 -o CMakeFiles\\CodeQuest.dir\\CodeQuest_autogen\\EWIEGA46WW\\qrc_questions.cpp.obj -c \"C:\\Users\\MUNAH\\OneDrive\\Desktop\\project C++\\build\\CodeQuest_autogen\\EWIEGA46WW\\qrc_questions.cpp\"",
+  "file": "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen/EWIEGA46WW/qrc_questions.cpp",
+  "output": "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/CodeQuest.dir/CodeQuest_autogen/EWIEGA46WW/qrc_questions.cpp.obj"
+}
+]

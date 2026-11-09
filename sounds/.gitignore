@@ -1,0 +1,15 @@
+
+@'
+build/
+release/
+dist/
+.vs/
+.vscode/
+*.exe
+*.dll
+*.o
+*.obj
+*.user
+CMakeFiles/
+CMakeCache.txt
+'@ | Set-Content ".gitignore" -Encoding utf8

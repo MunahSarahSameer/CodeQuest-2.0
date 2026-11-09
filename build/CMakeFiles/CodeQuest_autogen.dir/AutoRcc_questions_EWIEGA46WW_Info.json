@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++",
+	"CMAKE_SOURCE_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen/include",
+	"INPUTS" : [ "C:/Users/MUNAH/OneDrive/Desktop/project C++/questions.json" ],
+	"LOCK_FILE" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/CodeQuest_autogen.dir/AutoRcc_questions_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "questions" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_questions.cpp",
+	"RCC_EXECUTABLE" : "C:/msys64/ucrt64/share/qt6/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/CodeQuest_autogen.dir/AutoRcc_questions_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/MUNAH/OneDrive/Desktop/project C++/questions.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

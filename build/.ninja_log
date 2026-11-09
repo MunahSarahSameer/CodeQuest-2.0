@@ -1,0 +1,12 @@
+# ninja log v7
+42	1469	8159610342117404	CodeQuest_autogen/timestamp	3a564ca47d6d6959
+42	1469	8159610342117404	CodeQuest_autogen/mocs_compilation.cpp	3a564ca47d6d6959
+42	1469	8159610342117404	C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen/timestamp	3a564ca47d6d6959
+42	1469	8159610342117404	C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen/mocs_compilation.cpp	3a564ca47d6d6959
+1471	4324	8159610342936002	CMakeFiles/CodeQuest.dir/CodeQuest_autogen/mocs_compilation.cpp.obj	fd8df9922bbafdb
+229	5259	8159642168482677	CMakeFiles/CodeQuest.dir/main.cpp.obj	fe272a50b897a6eb
+1492	4491	8159610343202651	CMakeFiles/CodeQuest.dir/MainWindow.cpp.obj	ad0c4e9f6d116e2c
+5260	5617	8159642218781766	CodeQuest.exe	edb731c6641ca332
+32	228	8159642168179271	CodeQuest_autogen/EWIEGA46WW/qrc_questions.cpp	2f380aeeb2c98e3f
+32	228	8159642168179271	C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CodeQuest_autogen/EWIEGA46WW/qrc_questions.cpp	2f380aeeb2c98e3f
+237	457	8159642168551263	CMakeFiles/CodeQuest.dir/CodeQuest_autogen/EWIEGA46WW/qrc_questions.cpp.obj	f2e4b136a2355c43

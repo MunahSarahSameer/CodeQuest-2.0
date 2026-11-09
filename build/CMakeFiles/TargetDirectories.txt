@@ -1,0 +1,3 @@
+C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/CodeQuest.dir
+C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/edit_cache.dir
+C:/Users/MUNAH/OneDrive/Desktop/project C++/build/CMakeFiles/rebuild_cache.dir

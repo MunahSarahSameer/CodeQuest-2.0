@@ -1,0 +1,1892 @@
+[
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Output",
+    "question": "Which statement prints text in C++?",
+    "options": [
+      "for (int i=0;i<3;i++) {}",
+      "std::cout << \"Hello\";",
+      "std::cin >> value;",
+      "if (ready) {}"
+    ],
+    "answer": 1,
+    "explanation": "The output statement displays a value on the console."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Variables",
+    "question": "Which statement correctly assigns the number 12 to a variable named age in C++?",
+    "options": [
+      "int age = 12;",
+      "int age == 12;",
+      "age == 12;",
+      "int age = \"12\";"
+    ],
+    "answer": 0,
+    "explanation": "Assignment stores a numeric value in a named variable."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Comments",
+    "question": "Which syntax starts a single-line comment in C++?",
+    "options": [
+      "/* note */",
+      ";",
+      "@note",
+      "// note"
+    ],
+    "answer": 3,
+    "explanation": "A comment is ignored by the interpreter or compiler."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Types",
+    "question": "Which type represents a true/false value in C++?",
+    "options": [
+      "double",
+      "std::string",
+      "bool",
+      "int"
+    ],
+    "answer": 2,
+    "explanation": "Boolean values represent two logical states."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Arithmetic",
+    "question": "What is the value of 8 + 3 * 2 in C++?",
+    "options": [
+      "11",
+      "14",
+      "22",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "Multiplication has higher precedence than addition: 8 + 6 = 14."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Comparisons",
+    "question": "Which operator checks whether two values are equal in C++?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      ">="
+    ],
+    "answer": 0,
+    "explanation": "The equality operator compares values; assignment stores a value."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Conditions",
+    "question": "Which keyword begins a conditional branch in C++?",
+    "options": [
+      "for",
+      "return",
+      "break",
+      "if"
+    ],
+    "answer": 3,
+    "explanation": "An if statement executes a branch only when its condition is true."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Loops",
+    "question": "Which construct is typically used to repeat a block a known number of times in C++?",
+    "options": [
+      "class",
+      "return",
+      "for",
+      "if"
+    ],
+    "answer": 2,
+    "explanation": "A for loop expresses repeated iteration."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Functions",
+    "question": "What is the purpose of a function in C++?",
+    "options": [
+      "Prevent all runtime errors",
+      "Group reusable operations",
+      "Declare a file extension",
+      "Automatically create a database"
+    ],
+    "answer": 1,
+    "explanation": "Functions package reusable operations and may accept arguments and return results."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Indexing",
+    "question": "For a zero-indexed sequence [4, 7, 9], what is the value at index 1?",
+    "options": [
+      "7",
+      "4",
+      "9",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "Zero-based indexing starts at 0, so index 1 refers to the second element."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Strings",
+    "question": "Which value is a string literal in C++?",
+    "options": [
+      "42",
+      "3.14",
+      "true",
+      "\"hello\""
+    ],
+    "answer": 3,
+    "explanation": "Quotation marks indicate a text literal."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Logical operators",
+    "question": "What does logical AND require?",
+    "options": [
+      "Both conditions must be false",
+      "The values must be integers",
+      "Both conditions must be true",
+      "Either condition must be true"
+    ],
+    "answer": 2,
+    "explanation": "AND evaluates to true only when both operands are true."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Input",
+    "question": "Why should user input be validated?",
+    "options": [
+      "It cannot contain whitespace",
+      "It may be missing or malformed",
+      "It always arrives as an integer",
+      "It automatically prevents all bugs"
+    ],
+    "answer": 1,
+    "explanation": "Validation checks that external values meet the program requirements."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Debugging",
+    "question": "What is a breakpoint used for?",
+    "options": [
+      "Pause execution to inspect state",
+      "Permanently delete code",
+      "Speed up compilation",
+      "Export a database"
+    ],
+    "answer": 0,
+    "explanation": "A breakpoint pauses execution so variables and control flow can be inspected."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Beginner",
+    "topic": "Syntax",
+    "question": "What does a syntax error mean?",
+    "options": [
+      "Program always runs slowly",
+      "A variable has a large value",
+      "A comment is too long",
+      "Code violates language grammar"
+    ],
+    "answer": 3,
+    "explanation": "A syntax error means the code does not follow the language grammar."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Parameters",
+    "question": "What is a parameter?",
+    "options": [
+      "A loop counter only",
+      "A named input in a function definition",
+      "A value printed by a function",
+      "A file used by a compiler"
+    ],
+    "answer": 1,
+    "explanation": "Parameters appear in function definitions; arguments are supplied at calls."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Return",
+    "question": "What does return normally do?",
+    "options": [
+      "Ends a function and optionally supplies a result",
+      "Restarts the whole application",
+      "Creates a new class",
+      "Repeats a loop indefinitely"
+    ],
+    "answer": 0,
+    "explanation": "return transfers control back to the caller and can provide a result."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Scope",
+    "question": "What is local scope?",
+    "options": [
+      "Every file can modify the name",
+      "The name must be global",
+      "The name is stored only on disk",
+      "A name is accessible within its defining block or function"
+    ],
+    "answer": 3,
+    "explanation": "Local names have limited visibility based on the language scope rules."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Collections",
+    "question": "Why use a collection rather than many separate variables?",
+    "options": [
+      "To disable loops",
+      "To avoid all type checking",
+      "To manage related values together",
+      "To guarantee zero memory use"
+    ],
+    "answer": 2,
+    "explanation": "Collections store related values and support iteration and indexing."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Mutability",
+    "question": "What does mutable mean?",
+    "options": [
+      "It must be stored in a database",
+      "An object or value can be changed after creation",
+      "It cannot be passed to a function",
+      "It is always a string"
+    ],
+    "answer": 1,
+    "explanation": "Mutability concerns whether state can be changed after creation."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Error handling",
+    "question": "What is the main purpose of exception handling?",
+    "options": [
+      "Handle exceptional runtime situations",
+      "Prevent syntax errors automatically",
+      "Replace every conditional",
+      "Make every operation faster"
+    ],
+    "answer": 0,
+    "explanation": "Exception handling separates error recovery from ordinary control flow."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "OOP",
+    "question": "What is an object?",
+    "options": [
+      "A compiler warning",
+      "A source file extension",
+      "A loop keyword",
+      "An instance of a class"
+    ],
+    "answer": 3,
+    "explanation": "An object is an instance with state and behaviour described by its class."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Encapsulation",
+    "question": "What is encapsulation?",
+    "options": [
+      "Running code only once",
+      "Sorting a list in reverse",
+      "Keeping state and related behaviour together with controlled access",
+      "Copying every method into every class"
+    ],
+    "answer": 2,
+    "explanation": "Encapsulation protects internal details behind a defined interface."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Inheritance",
+    "question": "Why is inheritance used?",
+    "options": [
+      "To stop all exceptions",
+      "To derive specialised behaviour from a base type",
+      "To convert every value into text",
+      "To remove constructors"
+    ],
+    "answer": 1,
+    "explanation": "Inheritance lets a derived type reuse or extend a base type."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Polymorphism",
+    "question": "What is polymorphism in OOP?",
+    "options": [
+      "Using a shared interface with different implementations",
+      "Using only one variable type",
+      "Disabling method calls",
+      "Replacing all classes with arrays"
+    ],
+    "answer": 0,
+    "explanation": "Polymorphism allows different concrete objects to respond through a common interface."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Algorithms",
+    "question": "What does O(n) time usually describe?",
+    "options": [
+      "A constant amount of work",
+      "Work always doubling each instruction",
+      "No operations at all",
+      "Work growing approximately linearly with input size"
+    ],
+    "answer": 3,
+    "explanation": "Linear complexity grows proportionally to the number of inputs."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Search",
+    "question": "When does binary search work correctly?",
+    "options": [
+      "When the data is unsorted",
+      "Only when the list has one item",
+      "When the searched data is ordered",
+      "When every element is identical"
+    ],
+    "answer": 2,
+    "explanation": "Binary search relies on ordering to discard half the search interval."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Testing",
+    "question": "What is a unit test designed to check?",
+    "options": [
+      "Every feature at once without assertions",
+      "A small component in isolation",
+      "Only the colour of the UI",
+      "Only production server uptime"
+    ],
+    "answer": 1,
+    "explanation": "Unit tests verify small units against expected behaviour."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Recursion",
+    "question": "What is essential for terminating recursion?",
+    "options": [
+      "A reachable base case",
+      "An infinite loop",
+      "A global variable",
+      "A network request"
+    ],
+    "answer": 0,
+    "explanation": "A base case stops recursive calls when the stopping condition is reached."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Intermediate",
+    "topic": "Files",
+    "question": "Why should file operations check for errors?",
+    "options": [
+      "Files are always readable",
+      "Storage never fills up",
+      "All files contain valid JSON",
+      "Files may be absent or inaccessible"
+    ],
+    "answer": 3,
+    "explanation": "File I/O can fail because of paths, permissions, storage, or invalid content."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Complexity",
+    "question": "Which growth rate is asymptotically smaller for large n?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "answer": 1,
+    "explanation": "Logarithmic growth increases more slowly than linear or quadratic growth."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Hashing",
+    "question": "What is the typical average-case lookup time of a hash table?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n²)",
+      "O(2ⁿ)"
+    ],
+    "answer": 0,
+    "explanation": "Hash tables generally provide constant average lookup time with a good hash function."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Concurrency",
+    "question": "What is a race condition?",
+    "options": [
+      "A loop has a fixed number of iterations",
+      "A file is read sequentially",
+      "A function returns a string",
+      "Outcome depends on unsynchronised operation timing"
+    ],
+    "answer": 3,
+    "explanation": "A race condition occurs when timing changes access to shared state."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Deadlock",
+    "question": "What is deadlock?",
+    "options": [
+      "A compiler optimises code",
+      "A list becomes empty",
+      "Tasks wait indefinitely for resources held by each other",
+      "A program prints too much"
+    ],
+    "answer": 2,
+    "explanation": "Deadlock occurs when tasks cannot progress because of circular waiting."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Design",
+    "question": "What is the single-responsibility principle?",
+    "options": [
+      "All functions must be static",
+      "A component should have one primary reason to change",
+      "Every class must contain one line",
+      "Only one class may exist"
+    ],
+    "answer": 1,
+    "explanation": "Single responsibility reduces coupling by focusing each component."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Testing",
+    "question": "What does a regression test guard against?",
+    "options": [
+      "Previously working behaviour breaking after changes",
+      "A keyboard running out of battery",
+      "Source files being renamed automatically",
+      "Every future bug being impossible"
+    ],
+    "answer": 0,
+    "explanation": "Regression tests detect unexpected changes in established behaviour."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Security",
+    "question": "Why avoid building SQL queries by concatenating user input?",
+    "options": [
+      "It always produces faster queries",
+      "It prevents indexing",
+      "It requires a GUI",
+      "It can enable SQL injection"
+    ],
+    "answer": 3,
+    "explanation": "Parameterized queries keep input separate from SQL instructions."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Memory",
+    "question": "What is a memory leak?",
+    "options": [
+      "A function returns early",
+      "The compiler prints warnings",
+      "Allocated memory is no longer reachable or released appropriately",
+      "Every variable uses zero bytes"
+    ],
+    "answer": 2,
+    "explanation": "A memory leak wastes resources by retaining allocations unnecessarily."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Architecture",
+    "question": "What is loose coupling?",
+    "options": [
+      "Data is duplicated in each class",
+      "Components depend on minimal stable interfaces",
+      "Every module imports every other module",
+      "All logic lives in one function"
+    ],
+    "answer": 1,
+    "explanation": "Loose coupling makes components easier to change and test independently."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Serialization",
+    "question": "What does serialization do?",
+    "options": [
+      "Converts structured data to a storable or transferable form",
+      "Automatically encrypts all data",
+      "Compiles C++ to machine code",
+      "Deletes temporary files"
+    ],
+    "answer": 0,
+    "explanation": "Serialization encodes data, for example into JSON, for storage or transfer."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Caching",
+    "question": "What is a cache invalidation problem?",
+    "options": [
+      "A cache always increases correctness",
+      "A cache cannot hold strings",
+      "Every cache requires a database",
+      "Stored results become stale after underlying data changes"
+    ],
+    "answer": 3,
+    "explanation": "Cached values must be refreshed or invalidated when source data changes."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Transactions",
+    "question": "What does atomicity mean in database transactions?",
+    "options": [
+      "Every row has the same value",
+      "No transaction can fail",
+      "All operations commit together or none do",
+      "Every query runs in parallel"
+    ],
+    "answer": 2,
+    "explanation": "Atomicity ensures a transaction is all-or-nothing."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "API design",
+    "question": "Why is backward compatibility important?",
+    "options": [
+      "It guarantees constant latency",
+      "Existing clients may depend on an established interface",
+      "It prevents all security problems",
+      "It eliminates version control"
+    ],
+    "answer": 1,
+    "explanation": "Breaking an API can disrupt clients that rely on earlier contracts."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Reliability",
+    "question": "What is idempotency?",
+    "options": [
+      "Repeating an operation has the same intended effect as once",
+      "An operation must always be slow",
+      "An operation cannot return data",
+      "An operation always modifies two files"
+    ],
+    "answer": 0,
+    "explanation": "Idempotent operations can be retried without accumulating unintended changes."
+  },
+  {
+    "language": "C++",
+    "difficulty": "Advanced",
+    "topic": "Profiling",
+    "question": "What is profiling used for?",
+    "options": [
+      "Replace all tests",
+      "Format code automatically",
+      "Guarantee no crashes",
+      "Measure where time or resources are consumed"
+    ],
+    "answer": 3,
+    "explanation": "Profilers measure resource use to locate performance bottlenecks."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Output",
+    "question": "Which statement prints text in Java?",
+    "options": [
+      "System.out.println(\"Hello\");",
+      "scanner.nextInt();",
+      "if (ready) {}",
+      "for (int i=0;i<3;i++) {}"
+    ],
+    "answer": 0,
+    "explanation": "The output statement displays a value on the console."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Variables",
+    "question": "Which statement correctly assigns the number 12 to a variable named age in Java?",
+    "options": [
+      "int age == 12;",
+      "age == 12;",
+      "int age = \"12\";",
+      "int age = 12;"
+    ],
+    "answer": 3,
+    "explanation": "Assignment stores a numeric value in a named variable."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Comments",
+    "question": "Which syntax starts a single-line comment in Java?",
+    "options": [
+      ";",
+      "@Override",
+      "// note",
+      "/* note */"
+    ],
+    "answer": 2,
+    "explanation": "A comment is ignored by the interpreter or compiler."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Types",
+    "question": "Which type represents a true/false value in Java?",
+    "options": [
+      "String",
+      "boolean",
+      "int",
+      "double"
+    ],
+    "answer": 1,
+    "explanation": "Boolean values represent two logical states."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Arithmetic",
+    "question": "What is the value of 8 + 3 * 2 in Java?",
+    "options": [
+      "14",
+      "22",
+      "16",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "Multiplication has higher precedence than addition: 8 + 6 = 14."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Comparisons",
+    "question": "Which operator checks whether two values are equal in Java?",
+    "options": [
+      "=",
+      "!=",
+      ">=",
+      "=="
+    ],
+    "answer": 3,
+    "explanation": "The equality operator compares values; assignment stores a value."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Conditions",
+    "question": "Which keyword begins a conditional branch in Java?",
+    "options": [
+      "return",
+      "break",
+      "if",
+      "for"
+    ],
+    "answer": 2,
+    "explanation": "An if statement executes a branch only when its condition is true."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Loops",
+    "question": "Which construct is typically used to repeat a block a known number of times in Java?",
+    "options": [
+      "return",
+      "for",
+      "if",
+      "class"
+    ],
+    "answer": 1,
+    "explanation": "A for loop expresses repeated iteration."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Functions",
+    "question": "What is the purpose of a function in Java?",
+    "options": [
+      "Group reusable operations",
+      "Declare a file extension",
+      "Automatically create a database",
+      "Prevent all runtime errors"
+    ],
+    "answer": 0,
+    "explanation": "Functions package reusable operations and may accept arguments and return results."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Indexing",
+    "question": "For a zero-indexed sequence [4, 7, 9], what is the value at index 1?",
+    "options": [
+      "4",
+      "9",
+      "1",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "Zero-based indexing starts at 0, so index 1 refers to the second element."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Strings",
+    "question": "Which value is a string literal in Java?",
+    "options": [
+      "3.14",
+      "true",
+      "\"hello\"",
+      "42"
+    ],
+    "answer": 2,
+    "explanation": "Quotation marks indicate a text literal."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Logical operators",
+    "question": "What does logical AND require?",
+    "options": [
+      "The values must be integers",
+      "Both conditions must be true",
+      "Either condition must be true",
+      "Both conditions must be false"
+    ],
+    "answer": 1,
+    "explanation": "AND evaluates to true only when both operands are true."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Input",
+    "question": "Why should user input be validated?",
+    "options": [
+      "It may be missing or malformed",
+      "It always arrives as an integer",
+      "It automatically prevents all bugs",
+      "It cannot contain whitespace"
+    ],
+    "answer": 0,
+    "explanation": "Validation checks that external values meet the program requirements."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Debugging",
+    "question": "What is a breakpoint used for?",
+    "options": [
+      "Permanently delete code",
+      "Speed up compilation",
+      "Export a database",
+      "Pause execution to inspect state"
+    ],
+    "answer": 3,
+    "explanation": "A breakpoint pauses execution so variables and control flow can be inspected."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Beginner",
+    "topic": "Syntax",
+    "question": "What does a syntax error mean?",
+    "options": [
+      "A variable has a large value",
+      "A comment is too long",
+      "Code violates language grammar",
+      "Program always runs slowly"
+    ],
+    "answer": 2,
+    "explanation": "A syntax error means the code does not follow the language grammar."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Parameters",
+    "question": "What is a parameter?",
+    "options": [
+      "A named input in a function definition",
+      "A value printed by a function",
+      "A file used by a compiler",
+      "A loop counter only"
+    ],
+    "answer": 0,
+    "explanation": "Parameters appear in function definitions; arguments are supplied at calls."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Return",
+    "question": "What does return normally do?",
+    "options": [
+      "Restarts the whole application",
+      "Creates a new class",
+      "Repeats a loop indefinitely",
+      "Ends a function and optionally supplies a result"
+    ],
+    "answer": 3,
+    "explanation": "return transfers control back to the caller and can provide a result."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Scope",
+    "question": "What is local scope?",
+    "options": [
+      "The name must be global",
+      "The name is stored only on disk",
+      "A name is accessible within its defining block or function",
+      "Every file can modify the name"
+    ],
+    "answer": 2,
+    "explanation": "Local names have limited visibility based on the language scope rules."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Collections",
+    "question": "Why use a collection rather than many separate variables?",
+    "options": [
+      "To avoid all type checking",
+      "To manage related values together",
+      "To guarantee zero memory use",
+      "To disable loops"
+    ],
+    "answer": 1,
+    "explanation": "Collections store related values and support iteration and indexing."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Mutability",
+    "question": "What does mutable mean?",
+    "options": [
+      "An object or value can be changed after creation",
+      "It cannot be passed to a function",
+      "It is always a string",
+      "It must be stored in a database"
+    ],
+    "answer": 0,
+    "explanation": "Mutability concerns whether state can be changed after creation."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Error handling",
+    "question": "What is the main purpose of exception handling?",
+    "options": [
+      "Prevent syntax errors automatically",
+      "Replace every conditional",
+      "Make every operation faster",
+      "Handle exceptional runtime situations"
+    ],
+    "answer": 3,
+    "explanation": "Exception handling separates error recovery from ordinary control flow."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "OOP",
+    "question": "What is an object?",
+    "options": [
+      "A source file extension",
+      "A loop keyword",
+      "An instance of a class",
+      "A compiler warning"
+    ],
+    "answer": 2,
+    "explanation": "An object is an instance with state and behaviour described by its class."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Encapsulation",
+    "question": "What is encapsulation?",
+    "options": [
+      "Sorting a list in reverse",
+      "Keeping state and related behaviour together with controlled access",
+      "Copying every method into every class",
+      "Running code only once"
+    ],
+    "answer": 1,
+    "explanation": "Encapsulation protects internal details behind a defined interface."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Inheritance",
+    "question": "Why is inheritance used?",
+    "options": [
+      "To derive specialised behaviour from a base type",
+      "To convert every value into text",
+      "To remove constructors",
+      "To stop all exceptions"
+    ],
+    "answer": 0,
+    "explanation": "Inheritance lets a derived type reuse or extend a base type."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Polymorphism",
+    "question": "What is polymorphism in OOP?",
+    "options": [
+      "Using only one variable type",
+      "Disabling method calls",
+      "Replacing all classes with arrays",
+      "Using a shared interface with different implementations"
+    ],
+    "answer": 3,
+    "explanation": "Polymorphism allows different concrete objects to respond through a common interface."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Algorithms",
+    "question": "What does O(n) time usually describe?",
+    "options": [
+      "Work always doubling each instruction",
+      "No operations at all",
+      "Work growing approximately linearly with input size",
+      "A constant amount of work"
+    ],
+    "answer": 2,
+    "explanation": "Linear complexity grows proportionally to the number of inputs."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Search",
+    "question": "When does binary search work correctly?",
+    "options": [
+      "Only when the list has one item",
+      "When the searched data is ordered",
+      "When every element is identical",
+      "When the data is unsorted"
+    ],
+    "answer": 1,
+    "explanation": "Binary search relies on ordering to discard half the search interval."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Testing",
+    "question": "What is a unit test designed to check?",
+    "options": [
+      "A small component in isolation",
+      "Only the colour of the UI",
+      "Only production server uptime",
+      "Every feature at once without assertions"
+    ],
+    "answer": 0,
+    "explanation": "Unit tests verify small units against expected behaviour."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Recursion",
+    "question": "What is essential for terminating recursion?",
+    "options": [
+      "An infinite loop",
+      "A global variable",
+      "A network request",
+      "A reachable base case"
+    ],
+    "answer": 3,
+    "explanation": "A base case stops recursive calls when the stopping condition is reached."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Intermediate",
+    "topic": "Files",
+    "question": "Why should file operations check for errors?",
+    "options": [
+      "Storage never fills up",
+      "All files contain valid JSON",
+      "Files may be absent or inaccessible",
+      "Files are always readable"
+    ],
+    "answer": 2,
+    "explanation": "File I/O can fail because of paths, permissions, storage, or invalid content."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Complexity",
+    "question": "Which growth rate is asymptotically smaller for large n?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n log n)",
+      "O(n²)"
+    ],
+    "answer": 0,
+    "explanation": "Logarithmic growth increases more slowly than linear or quadratic growth."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Hashing",
+    "question": "What is the typical average-case lookup time of a hash table?",
+    "options": [
+      "O(n)",
+      "O(n²)",
+      "O(2ⁿ)",
+      "O(1)"
+    ],
+    "answer": 3,
+    "explanation": "Hash tables generally provide constant average lookup time with a good hash function."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Concurrency",
+    "question": "What is a race condition?",
+    "options": [
+      "A file is read sequentially",
+      "A function returns a string",
+      "Outcome depends on unsynchronised operation timing",
+      "A loop has a fixed number of iterations"
+    ],
+    "answer": 2,
+    "explanation": "A race condition occurs when timing changes access to shared state."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Deadlock",
+    "question": "What is deadlock?",
+    "options": [
+      "A list becomes empty",
+      "Tasks wait indefinitely for resources held by each other",
+      "A program prints too much",
+      "A compiler optimises code"
+    ],
+    "answer": 1,
+    "explanation": "Deadlock occurs when tasks cannot progress because of circular waiting."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Design",
+    "question": "What is the single-responsibility principle?",
+    "options": [
+      "A component should have one primary reason to change",
+      "Every class must contain one line",
+      "Only one class may exist",
+      "All functions must be static"
+    ],
+    "answer": 0,
+    "explanation": "Single responsibility reduces coupling by focusing each component."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Testing",
+    "question": "What does a regression test guard against?",
+    "options": [
+      "A keyboard running out of battery",
+      "Source files being renamed automatically",
+      "Every future bug being impossible",
+      "Previously working behaviour breaking after changes"
+    ],
+    "answer": 3,
+    "explanation": "Regression tests detect unexpected changes in established behaviour."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Security",
+    "question": "Why avoid building SQL queries by concatenating user input?",
+    "options": [
+      "It prevents indexing",
+      "It requires a GUI",
+      "It can enable SQL injection",
+      "It always produces faster queries"
+    ],
+    "answer": 2,
+    "explanation": "Parameterized queries keep input separate from SQL instructions."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Memory",
+    "question": "What is a memory leak?",
+    "options": [
+      "The compiler prints warnings",
+      "Allocated memory is no longer reachable or released appropriately",
+      "Every variable uses zero bytes",
+      "A function returns early"
+    ],
+    "answer": 1,
+    "explanation": "A memory leak wastes resources by retaining allocations unnecessarily."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Architecture",
+    "question": "What is loose coupling?",
+    "options": [
+      "Components depend on minimal stable interfaces",
+      "Every module imports every other module",
+      "All logic lives in one function",
+      "Data is duplicated in each class"
+    ],
+    "answer": 0,
+    "explanation": "Loose coupling makes components easier to change and test independently."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Serialization",
+    "question": "What does serialization do?",
+    "options": [
+      "Automatically encrypts all data",
+      "Compiles C++ to machine code",
+      "Deletes temporary files",
+      "Converts structured data to a storable or transferable form"
+    ],
+    "answer": 3,
+    "explanation": "Serialization encodes data, for example into JSON, for storage or transfer."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Caching",
+    "question": "What is a cache invalidation problem?",
+    "options": [
+      "A cache cannot hold strings",
+      "Every cache requires a database",
+      "Stored results become stale after underlying data changes",
+      "A cache always increases correctness"
+    ],
+    "answer": 2,
+    "explanation": "Cached values must be refreshed or invalidated when source data changes."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Transactions",
+    "question": "What does atomicity mean in database transactions?",
+    "options": [
+      "No transaction can fail",
+      "All operations commit together or none do",
+      "Every query runs in parallel",
+      "Every row has the same value"
+    ],
+    "answer": 1,
+    "explanation": "Atomicity ensures a transaction is all-or-nothing."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "API design",
+    "question": "Why is backward compatibility important?",
+    "options": [
+      "Existing clients may depend on an established interface",
+      "It prevents all security problems",
+      "It eliminates version control",
+      "It guarantees constant latency"
+    ],
+    "answer": 0,
+    "explanation": "Breaking an API can disrupt clients that rely on earlier contracts."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Reliability",
+    "question": "What is idempotency?",
+    "options": [
+      "An operation must always be slow",
+      "An operation cannot return data",
+      "An operation always modifies two files",
+      "Repeating an operation has the same intended effect as once"
+    ],
+    "answer": 3,
+    "explanation": "Idempotent operations can be retried without accumulating unintended changes."
+  },
+  {
+    "language": "Java",
+    "difficulty": "Advanced",
+    "topic": "Profiling",
+    "question": "What is profiling used for?",
+    "options": [
+      "Format code automatically",
+      "Guarantee no crashes",
+      "Measure where time or resources are consumed",
+      "Replace all tests"
+    ],
+    "answer": 2,
+    "explanation": "Profilers measure resource use to locate performance bottlenecks."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Output",
+    "question": "Which statement prints text in Python?",
+    "options": [
+      "if ready:",
+      "for i in range(3):",
+      "print(\"Hello\")",
+      "input(\"Value: \")"
+    ],
+    "answer": 2,
+    "explanation": "The output statement displays a value on the console."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Variables",
+    "question": "Which statement correctly assigns the number 12 to a variable named age in Python?",
+    "options": [
+      "age = \"12\"",
+      "age = 12",
+      "age == 12",
+      "age == 12"
+    ],
+    "answer": 1,
+    "explanation": "Assignment stores a numeric value in a named variable."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Comments",
+    "question": "Which syntax starts a single-line comment in Python?",
+    "options": [
+      "# note",
+      "\"\"\"note\"\"\"",
+      ";",
+      "@property"
+    ],
+    "answer": 0,
+    "explanation": "A comment is ignored by the interpreter or compiler."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Types",
+    "question": "Which type represents a true/false value in Python?",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 3,
+    "explanation": "Boolean values represent two logical states."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Arithmetic",
+    "question": "What is the value of 8 + 3 * 2 in Python?",
+    "options": [
+      "16",
+      "11",
+      "14",
+      "22"
+    ],
+    "answer": 2,
+    "explanation": "Multiplication has higher precedence than addition: 8 + 6 = 14."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Comparisons",
+    "question": "Which operator checks whether two values are equal in Python?",
+    "options": [
+      ">=",
+      "==",
+      "=",
+      "!="
+    ],
+    "answer": 1,
+    "explanation": "The equality operator compares values; assignment stores a value."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Conditions",
+    "question": "Which keyword begins a conditional branch in Python?",
+    "options": [
+      "if",
+      "for",
+      "return",
+      "break"
+    ],
+    "answer": 0,
+    "explanation": "An if statement executes a branch only when its condition is true."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Loops",
+    "question": "Which construct is typically used to repeat a block a known number of times in Python?",
+    "options": [
+      "if",
+      "class",
+      "return",
+      "for"
+    ],
+    "answer": 3,
+    "explanation": "A for loop expresses repeated iteration."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Functions",
+    "question": "What is the purpose of a function in Python?",
+    "options": [
+      "Automatically create a database",
+      "Prevent all runtime errors",
+      "Group reusable operations",
+      "Declare a file extension"
+    ],
+    "answer": 2,
+    "explanation": "Functions package reusable operations and may accept arguments and return results."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Indexing",
+    "question": "For a zero-indexed sequence [4, 7, 9], what is the value at index 1?",
+    "options": [
+      "1",
+      "7",
+      "4",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "Zero-based indexing starts at 0, so index 1 refers to the second element."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Strings",
+    "question": "Which value is a string literal in Python?",
+    "options": [
+      "\"hello\"",
+      "42",
+      "3.14",
+      "true"
+    ],
+    "answer": 0,
+    "explanation": "Quotation marks indicate a text literal."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Logical operators",
+    "question": "What does logical AND require?",
+    "options": [
+      "Either condition must be true",
+      "Both conditions must be false",
+      "The values must be integers",
+      "Both conditions must be true"
+    ],
+    "answer": 3,
+    "explanation": "AND evaluates to true only when both operands are true."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Input",
+    "question": "Why should user input be validated?",
+    "options": [
+      "It automatically prevents all bugs",
+      "It cannot contain whitespace",
+      "It may be missing or malformed",
+      "It always arrives as an integer"
+    ],
+    "answer": 2,
+    "explanation": "Validation checks that external values meet the program requirements."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Debugging",
+    "question": "What is a breakpoint used for?",
+    "options": [
+      "Export a database",
+      "Pause execution to inspect state",
+      "Permanently delete code",
+      "Speed up compilation"
+    ],
+    "answer": 1,
+    "explanation": "A breakpoint pauses execution so variables and control flow can be inspected."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Beginner",
+    "topic": "Syntax",
+    "question": "What does a syntax error mean?",
+    "options": [
+      "Code violates language grammar",
+      "Program always runs slowly",
+      "A variable has a large value",
+      "A comment is too long"
+    ],
+    "answer": 0,
+    "explanation": "A syntax error means the code does not follow the language grammar."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Parameters",
+    "question": "What is a parameter?",
+    "options": [
+      "A file used by a compiler",
+      "A loop counter only",
+      "A named input in a function definition",
+      "A value printed by a function"
+    ],
+    "answer": 2,
+    "explanation": "Parameters appear in function definitions; arguments are supplied at calls."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Return",
+    "question": "What does return normally do?",
+    "options": [
+      "Repeats a loop indefinitely",
+      "Ends a function and optionally supplies a result",
+      "Restarts the whole application",
+      "Creates a new class"
+    ],
+    "answer": 1,
+    "explanation": "return transfers control back to the caller and can provide a result."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Scope",
+    "question": "What is local scope?",
+    "options": [
+      "A name is accessible within its defining block or function",
+      "Every file can modify the name",
+      "The name must be global",
+      "The name is stored only on disk"
+    ],
+    "answer": 0,
+    "explanation": "Local names have limited visibility based on the language scope rules."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Collections",
+    "question": "Why use a collection rather than many separate variables?",
+    "options": [
+      "To guarantee zero memory use",
+      "To disable loops",
+      "To avoid all type checking",
+      "To manage related values together"
+    ],
+    "answer": 3,
+    "explanation": "Collections store related values and support iteration and indexing."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Mutability",
+    "question": "What does mutable mean?",
+    "options": [
+      "It is always a string",
+      "It must be stored in a database",
+      "An object or value can be changed after creation",
+      "It cannot be passed to a function"
+    ],
+    "answer": 2,
+    "explanation": "Mutability concerns whether state can be changed after creation."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Error handling",
+    "question": "What is the main purpose of exception handling?",
+    "options": [
+      "Make every operation faster",
+      "Handle exceptional runtime situations",
+      "Prevent syntax errors automatically",
+      "Replace every conditional"
+    ],
+    "answer": 1,
+    "explanation": "Exception handling separates error recovery from ordinary control flow."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "OOP",
+    "question": "What is an object?",
+    "options": [
+      "An instance of a class",
+      "A compiler warning",
+      "A source file extension",
+      "A loop keyword"
+    ],
+    "answer": 0,
+    "explanation": "An object is an instance with state and behaviour described by its class."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Encapsulation",
+    "question": "What is encapsulation?",
+    "options": [
+      "Copying every method into every class",
+      "Running code only once",
+      "Sorting a list in reverse",
+      "Keeping state and related behaviour together with controlled access"
+    ],
+    "answer": 3,
+    "explanation": "Encapsulation protects internal details behind a defined interface."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Inheritance",
+    "question": "Why is inheritance used?",
+    "options": [
+      "To remove constructors",
+      "To stop all exceptions",
+      "To derive specialised behaviour from a base type",
+      "To convert every value into text"
+    ],
+    "answer": 2,
+    "explanation": "Inheritance lets a derived type reuse or extend a base type."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Polymorphism",
+    "question": "What is polymorphism in OOP?",
+    "options": [
+      "Replacing all classes with arrays",
+      "Using a shared interface with different implementations",
+      "Using only one variable type",
+      "Disabling method calls"
+    ],
+    "answer": 1,
+    "explanation": "Polymorphism allows different concrete objects to respond through a common interface."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Algorithms",
+    "question": "What does O(n) time usually describe?",
+    "options": [
+      "Work growing approximately linearly with input size",
+      "A constant amount of work",
+      "Work always doubling each instruction",
+      "No operations at all"
+    ],
+    "answer": 0,
+    "explanation": "Linear complexity grows proportionally to the number of inputs."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Search",
+    "question": "When does binary search work correctly?",
+    "options": [
+      "When every element is identical",
+      "When the data is unsorted",
+      "Only when the list has one item",
+      "When the searched data is ordered"
+    ],
+    "answer": 3,
+    "explanation": "Binary search relies on ordering to discard half the search interval."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Testing",
+    "question": "What is a unit test designed to check?",
+    "options": [
+      "Only production server uptime",
+      "Every feature at once without assertions",
+      "A small component in isolation",
+      "Only the colour of the UI"
+    ],
+    "answer": 2,
+    "explanation": "Unit tests verify small units against expected behaviour."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Recursion",
+    "question": "What is essential for terminating recursion?",
+    "options": [
+      "A network request",
+      "A reachable base case",
+      "An infinite loop",
+      "A global variable"
+    ],
+    "answer": 1,
+    "explanation": "A base case stops recursive calls when the stopping condition is reached."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Intermediate",
+    "topic": "Files",
+    "question": "Why should file operations check for errors?",
+    "options": [
+      "Files may be absent or inaccessible",
+      "Files are always readable",
+      "Storage never fills up",
+      "All files contain valid JSON"
+    ],
+    "answer": 0,
+    "explanation": "File I/O can fail because of paths, permissions, storage, or invalid content."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Complexity",
+    "question": "Which growth rate is asymptotically smaller for large n?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": 2,
+    "explanation": "Logarithmic growth increases more slowly than linear or quadratic growth."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Hashing",
+    "question": "What is the typical average-case lookup time of a hash table?",
+    "options": [
+      "O(2ⁿ)",
+      "O(1)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "answer": 1,
+    "explanation": "Hash tables generally provide constant average lookup time with a good hash function."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Concurrency",
+    "question": "What is a race condition?",
+    "options": [
+      "Outcome depends on unsynchronised operation timing",
+      "A loop has a fixed number of iterations",
+      "A file is read sequentially",
+      "A function returns a string"
+    ],
+    "answer": 0,
+    "explanation": "A race condition occurs when timing changes access to shared state."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Deadlock",
+    "question": "What is deadlock?",
+    "options": [
+      "A program prints too much",
+      "A compiler optimises code",
+      "A list becomes empty",
+      "Tasks wait indefinitely for resources held by each other"
+    ],
+    "answer": 3,
+    "explanation": "Deadlock occurs when tasks cannot progress because of circular waiting."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Design",
+    "question": "What is the single-responsibility principle?",
+    "options": [
+      "Only one class may exist",
+      "All functions must be static",
+      "A component should have one primary reason to change",
+      "Every class must contain one line"
+    ],
+    "answer": 2,
+    "explanation": "Single responsibility reduces coupling by focusing each component."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Testing",
+    "question": "What does a regression test guard against?",
+    "options": [
+      "Every future bug being impossible",
+      "Previously working behaviour breaking after changes",
+      "A keyboard running out of battery",
+      "Source files being renamed automatically"
+    ],
+    "answer": 1,
+    "explanation": "Regression tests detect unexpected changes in established behaviour."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Security",
+    "question": "Why avoid building SQL queries by concatenating user input?",
+    "options": [
+      "It can enable SQL injection",
+      "It always produces faster queries",
+      "It prevents indexing",
+      "It requires a GUI"
+    ],
+    "answer": 0,
+    "explanation": "Parameterized queries keep input separate from SQL instructions."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Memory",
+    "question": "What is a memory leak?",
+    "options": [
+      "Every variable uses zero bytes",
+      "A function returns early",
+      "The compiler prints warnings",
+      "Allocated memory is no longer reachable or released appropriately"
+    ],
+    "answer": 3,
+    "explanation": "A memory leak wastes resources by retaining allocations unnecessarily."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Architecture",
+    "question": "What is loose coupling?",
+    "options": [
+      "All logic lives in one function",
+      "Data is duplicated in each class",
+      "Components depend on minimal stable interfaces",
+      "Every module imports every other module"
+    ],
+    "answer": 2,
+    "explanation": "Loose coupling makes components easier to change and test independently."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Serialization",
+    "question": "What does serialization do?",
+    "options": [
+      "Deletes temporary files",
+      "Converts structured data to a storable or transferable form",
+      "Automatically encrypts all data",
+      "Compiles C++ to machine code"
+    ],
+    "answer": 1,
+    "explanation": "Serialization encodes data, for example into JSON, for storage or transfer."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Caching",
+    "question": "What is a cache invalidation problem?",
+    "options": [
+      "Stored results become stale after underlying data changes",
+      "A cache always increases correctness",
+      "A cache cannot hold strings",
+      "Every cache requires a database"
+    ],
+    "answer": 0,
+    "explanation": "Cached values must be refreshed or invalidated when source data changes."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Transactions",
+    "question": "What does atomicity mean in database transactions?",
+    "options": [
+      "Every query runs in parallel",
+      "Every row has the same value",
+      "No transaction can fail",
+      "All operations commit together or none do"
+    ],
+    "answer": 3,
+    "explanation": "Atomicity ensures a transaction is all-or-nothing."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "API design",
+    "question": "Why is backward compatibility important?",
+    "options": [
+      "It eliminates version control",
+      "It guarantees constant latency",
+      "Existing clients may depend on an established interface",
+      "It prevents all security problems"
+    ],
+    "answer": 2,
+    "explanation": "Breaking an API can disrupt clients that rely on earlier contracts."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Reliability",
+    "question": "What is idempotency?",
+    "options": [
+      "An operation always modifies two files",
+      "Repeating an operation has the same intended effect as once",
+      "An operation must always be slow",
+      "An operation cannot return data"
+    ],
+    "answer": 1,
+    "explanation": "Idempotent operations can be retried without accumulating unintended changes."
+  },
+  {
+    "language": "Python",
+    "difficulty": "Advanced",
+    "topic": "Profiling",
+    "question": "What is profiling used for?",
+    "options": [
+      "Measure where time or resources are consumed",
+      "Replace all tests",
+      "Format code automatically",
+      "Guarantee no crashes"
+    ],
+    "answer": 0,
+    "explanation": "Profilers measure resource use to locate performance bottlenecks."
+  }
+]

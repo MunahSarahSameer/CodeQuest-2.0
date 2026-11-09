@@ -1,0 +1,6 @@
+
+<RCC>
+    <qresource prefix="/">
+        <file>questions.json</file>
+    </qresource>
+</RCC>
